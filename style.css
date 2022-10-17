@@ -219,7 +219,7 @@ h1 {
 
   .buttons {
     position: relative;
-    top: 10rem;
+    top: 16rem;
     width: 90%;    
   }
   
@@ -234,12 +234,12 @@ h1 {
 
   .img-selected,
   .cpu-selected {  
-    width: 4rem;
-    height: 4rem;  
+    width: 8rem;
+    height: 8rem;  
     box-shadow: 0 0 20px #fff;
     border-radius: 50%;    
     position: relative;
-    bottom: 5rem;
+    bottom: 10rem;
   }
 
   .choice > h2 {
@@ -274,7 +274,7 @@ h1 {
     width: 8rem;
     height: 6rem;
     position: relative;
-    top: 32rem;    
+    top: 43rem;    
   }
 
 }
