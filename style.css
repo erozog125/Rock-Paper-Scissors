@@ -223,8 +223,9 @@ h1 {
 
   .buttons {
     position: relative;
-    top: 12rem;     
-    width: 100%;        
+    top: 12rem;  
+    left: 7rem;   
+    width: 100vw;        
     display: flex;
     justify-content: center;
   }   
