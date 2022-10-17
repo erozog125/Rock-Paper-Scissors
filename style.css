@@ -217,25 +217,23 @@ h1 {
     flex-direction: column-reverse;        
   }
 
+  .buttons > label {
+    display: none;    
+  }
+
   .buttons {
     position: relative;
-    top: 16rem;
-    width: 90%;    
-  }
-  
-  .buttons > button {
-    width: 5rem;
-    height: 3.2rem;
-    margin: 0.5rem;
-    border: double 5px #119570;
-    border-radius: 15px;
-    cursor: pointer;
-  }
+    top: 12rem;
+    left: 7rem;    
+    width: 100%;        
+    display: flex;
+    justify-content: center;
+  }   
 
   .img-selected,
   .cpu-selected {  
-    width: 8rem;
-    height: 8rem;  
+    width: 6rem;
+    height: 6rem;  
     box-shadow: 0 0 20px #fff;
     border-radius: 50%;    
     position: relative;
@@ -260,12 +258,6 @@ h1 {
     box-shadow: 0 0 20px #07e3e6;  
   }
 
-  .buttons > label > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50px;    
-  }
-
   #h3-result {
     font-size: 1rem;
   }
@@ -274,8 +266,8 @@ h1 {
     width: 8rem;
     height: 6rem;
     position: relative;
-    top: 43rem;    
-  }
+    top: 44rem;    
+  } 
 
 }
 
