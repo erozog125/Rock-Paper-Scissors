@@ -210,18 +210,18 @@ h1 {
     font-size: 1.5rem;
     color: #273c7a;
   }
+  
+  .buttons-cpu {
+    visibility: hidden;
+  }
 
   .buttons-user {
     position: relative;
     top: 12rem;  
-    left: 10rem;   
+    /* left: 10rem;    */
     width: 100vw;        
     display: flex;    
     justify-content: center;
-  }
-  
-  .buttons-cpu {
-    visibility: hidden;
   }
 
   .img-selected,
